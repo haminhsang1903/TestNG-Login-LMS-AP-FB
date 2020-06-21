@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="TestDemo">
+    <classes>
+      <class name="TestLoginLMS.DemoLoginAP">
+      	<methods>
+      		<include name="lauchWeb"></include>
+      		<include name="fillLoginDetail"></include>
+      		<include name="DoLogin"></include>
+      	</methods>
+      </class>
+    </classes>
+  </test> <!-- TestDemo -->
+</suite> <!-- Suite -->
